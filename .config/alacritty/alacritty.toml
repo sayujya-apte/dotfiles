@@ -1,0 +1,23 @@
+general.import = [
+    "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[window]
+padding = { x = 10, y = 5 }
+dynamic_padding = true
+
+[font]
+size = 8.0
+
+[font.normal]
+family = "3270NerdFontMono"
+style = "Regular"
+
+[font.bold]
+family = "3270NerdFontMono"
+style = "Bold"
+
+[font.italic]
+family = "3270NerdFontMono"
+style = "Italic"
+

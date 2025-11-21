@@ -1,0 +1,14 @@
+# Set interface colors
+set recolor            true
+set recolor-lightcolor  "#D9E0EE"   # Light color (e.g., text color in UI)
+set recolor-darkcolor   "#292A34"   # Dark color (e.g., background color of the UI)
+
+# Custom UI colors (you can adjust as needed)
+set statusbar-bg        "#1E1E2E"   # Dark background for the status bar
+set statusbar-fg        "#F2D5CF"   # Light text color for the status bar
+
+# Adjust the search highlight and other UI elements
+set highlight-color     "#F2D5CF"   # Light color for search highlights
+
+set recolor-keephue true
+
