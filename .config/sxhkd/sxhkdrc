@@ -10,8 +10,8 @@ super + Return
 super + @space
 	rofi -show drun
 
-super + d
-    dmenu_run
+super + f
+    firefox
 
 super + s
     flameshot gui
