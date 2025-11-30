@@ -1,3 +1,12 @@
+#        _                 _     _
+#    ___| |_ __ _ _ __ ___| |__ (_)_ __
+#   / __| __/ _` | '__/ __| '_ \| | '_ \
+#   \__ \ || (_| | |  \__ \ | | | | |_) |
+#   |___/\__\__,_|_|  |___/_| |_|_| .__/
+#                                 |_|
+#
+# By Sayujya Apte (2025)
+
 "$schema" = 'https://starship.rs/config-schema.json'
 
 palette = "catppuccin_mocha"
@@ -15,6 +24,20 @@ $line_break\
 $character
 """
 
+[username]
+show_always = true
+style_user = 'bold blue'
+style_root = 'bold red'
+format = '[$user]($style) @ '
+
+[hostname]
+ssh_only = false
+style = 'bold blue'
+
+[directory]
+truncation_length = 10
+truncate_to_repo = false
+
 [time]
 disabled = false
 format = '🕙[\[ $time \]]($style) '
@@ -26,6 +49,7 @@ min_time = 0
 [character]
 success_symbol = '[➜](bold green)'
 error_symbol = '[➜](bold red)'
+vimcmd_symbol = '[V](bold green)'
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"

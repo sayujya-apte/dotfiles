@@ -1,3 +1,11 @@
+#             _     _       _
+#    _____  _| |__ | | ____| |
+#   / __\ \/ / '_ \| |/ / _` |
+#   \__ \>  <| | | |   < (_| |
+#   |___/_/\_\_| |_|_|\_\__,_|
+#
+# By Sayujya Apte (2025)
+
 #
 # wm independent hotkeys
 #
@@ -10,9 +18,11 @@ super + Return
 super + @space
 	rofi -show drun
 
-super + f
+# browser
+super + b
     firefox
 
+# screenshot
 super + s
     flameshot gui
 
@@ -49,7 +59,7 @@ super + g
 #
 
 # set the window state
-super + {t,shift + t,s,f}
+super + {t,shift + t,shift + s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
 # set the node flags

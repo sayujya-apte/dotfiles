@@ -1,3 +1,11 @@
+#            _
+#    _______| |__
+#   |_  / __| '_ \
+#    / /\__ \ | | |
+#   /___|___/_| |_|
+#
+# By Sayujya Apte (2025)
+
 PATH=$PATH:$HOME/.local/bin
 
 # Set the directory for zinit and plugins
@@ -40,6 +48,7 @@ alias cat='batcat'
 alias cl='clear'
 
 # Keybindings
+bindkey -v
 bindkey '^f' autosuggest-accept
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
