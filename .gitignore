@@ -2,3 +2,13 @@
 .config/ibus
 .config/Thunar
 .config/xfce4
+.config/chromium/
+.config/dconf/
+.config/fish/
+.config/go/
+.config/libreoffice/
+.config/mimeapps.list
+.config/pulse/
+.config/ristretto/
+.config/xarchiver/
+
