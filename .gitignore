@@ -12,3 +12,13 @@
 .config/ristretto/
 .config/xarchiver/
 .config/enchant/
+.config/QtProject.conf
+.config/balenaEtcher/
+.config/xfburn/
+.config/salut/
+.config/gedit/
+.config/htop/
+.config/libvirt/
+.config/cppman/
+.config/btop/
+.config/qutebrowser/
